@@ -24,7 +24,8 @@
     "husky": "^4.0.4",
     "jest": "^24.9.0",
     "parcel-bundler": "^1.12.4",
-    "plop": "^2.5.3"
+    "plop": "^2.5.3",
+    "sound-play": "^1.0.5"
   },
   "dependencies": {
     "react": "^16.12.0",
