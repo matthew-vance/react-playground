@@ -7,7 +7,8 @@
     "dev": "parcel src/index.html",
     "start": "npm run dev -- --open --https",
     "build": "parcel build src/index.html",
-    "test": "jest --watchAll --coverage",
+    "test": "npm run test:ci -- --watchAll",
+    "test:ci": "jest --coverage",
     "plop": "plop --plopfile plop/plopfile.js",
     "new": "npm run plop",
     "new:component": "npm run new -- component"
@@ -20,6 +21,7 @@
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
     "@testing-library/react": "^9.4.0",
+    "husky": "^4.0.4",
     "jest": "^24.9.0",
     "parcel-bundler": "^1.12.4",
     "plop": "^2.5.3"
