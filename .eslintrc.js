@@ -7,6 +7,7 @@ module.exports = {
   extends: [
     "plugin:prettier/recommended",
     "plugin:react/recommended",
+    "plugin:jest/style",
     "standard",
   ],
   globals: {
@@ -20,7 +21,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ["react"],
+  plugins: ["react", "jest"],
   settings: {
     react: {
       version: "detect",

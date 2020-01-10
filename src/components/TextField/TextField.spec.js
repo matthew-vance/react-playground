@@ -17,7 +17,7 @@ describe("TextField component", () => {
     input = getByRole("textbox");
   });
 
-  test("calls onChange function", () => {
+  it("calls onChange function", () => {
     expect(input.value).toEqual("");
     fireEvent.change(input, { target: { value: "a" } });
 

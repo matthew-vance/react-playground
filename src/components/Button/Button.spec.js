@@ -8,7 +8,7 @@ describe("Button component", () => {
   const { getByText } = render(
     <Button onClick={mockOnClick}>{testText}</Button>,
   );
-  test("renders children and is clickable", () => {
+  it("renders children and is clickable", () => {
     const button = getByText(testText);
     fireEvent.click(button);
 

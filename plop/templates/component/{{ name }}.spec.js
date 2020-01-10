@@ -4,7 +4,7 @@ import {{ name }} from ".";
 
 describe("{{ name }} component", () => {
   render(<{{ name }}></{{ name }}>);
-  test("", () => {
+  it("", () => {
     expect(false).toEqual(true);
   });
 });
