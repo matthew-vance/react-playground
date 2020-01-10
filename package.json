@@ -1,7 +1,7 @@
 {
-  "name": "playing_with_testing_library",
+  "name": "react_playground",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just fooling around with React and other JS stuff.",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
