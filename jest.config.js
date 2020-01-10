@@ -1,3 +1,3 @@
 module.exports = {
-  testPathIgnorePatterns: ["/node_modules/", "/plop/"]
+  testPathIgnorePatterns: ["/node_modules/", "/plop/"],
 };

@@ -7,8 +7,8 @@ module.exports = {
     {
       type: "input",
       name: "name",
-      message: "component name"
-    }
+      message: "component name",
+    },
   ],
   actions: [
     {
@@ -16,12 +16,12 @@ module.exports = {
       destination: `${componentsPath}/{{ name }}`,
       base: templatesPath,
       templateFiles: `${templatesPath}/*.js`,
-      skipIfExists: true
+      skipIfExists: true,
     },
     {
       type: "append",
       path: `${componentsPath}/index.js`,
-      templateFile: `${templatesPath}/indexAppend.txt`
-    }
-  ]
+      templateFile: `${templatesPath}/indexAppend.txt`,
+    },
+  ],
 };

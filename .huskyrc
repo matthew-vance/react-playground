@@ -1,6 +1,6 @@
 {
     "hooks": {
-        "pre-commit": "npm run test:ci",
-        "pre-push": "node utils/pushIt.js"
+        "pre-commit": "npm run lint",
+        "pre-push": "npm run test:ci"
     }
 }

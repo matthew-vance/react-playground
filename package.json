@@ -11,7 +11,9 @@
     "test:ci": "jest --coverage",
     "plop": "plop --plopfile plop/plopfile.js",
     "new": "npm run plop",
-    "new:component": "npm run new -- component"
+    "new:component": "npm run new -- component",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [],
   "author": "",
@@ -21,10 +23,20 @@
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
     "@testing-library/react": "^9.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.0.4",
     "jest": "^24.9.0",
     "parcel-bundler": "^1.12.4",
     "plop": "^2.5.3",
+    "prettier": "^1.19.1",
     "sound-play": "^1.0.5"
   },
   "dependencies": {

@@ -6,7 +6,7 @@ test("Button component renders children and is clickable", () => {
   const mockOnClick = jest.fn();
   const testText = "Test Text";
   const { getByText } = render(
-    <Button onClick={mockOnClick}>{testText}</Button>
+    <Button onClick={mockOnClick}>{testText}</Button>,
   );
   const button = getByText(testText);
 

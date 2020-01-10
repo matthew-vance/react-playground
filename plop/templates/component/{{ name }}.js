@@ -1,5 +1,5 @@
 import React from "react";
 
-const {{ name }} = () => (<></>);
+const {{ name }} = () => <></>;
 
 export default {{ name }};
